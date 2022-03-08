@@ -1,0 +1,65 @@
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Rancho', cursive; */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+main,
+header {
+  padding: 1rem;
+}
+img {
+  /* Default all images to 100% */
+  width: 100%;
+}
+/* header style start */
+header nav ul li {
+  display: none;
+}
+
+#logo {
+  display: inline;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  font-family: "Rancho", cursive;
+}
+#burger-menu {
+  display: inline;
+  float: right;
+  font-size: 1.6rem;
+}
+/* header style end */
+
+/*  style start */
+/*  style end */
+
+/*  style start */
+/*  style end */
+
+@media screen and (min-width: 725px) {
+  body {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  main {
+    padding: 0;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav ul li {
+    display: inline;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  #burger-menu {
+    display: none;
+  }
+}
