@@ -34,8 +34,45 @@ header nav ul li {
 }
 /* header style end */
 
-/*  style start */
-/*  style end */
+/* hero style start */
+
+.hero-info h1 {
+  font-weight: 400;
+  font-size: 3.5rem;
+  color: rgb(50, 50, 50);
+  margin: 3rem 0;
+}
+
+.line-block {
+  color: #2a9d8f;
+}
+
+#hero-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+#hero-buttons :first-child {
+  background-color: #e76f51;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 5px 5px 15px #e76f51;
+  border-radius: 5px;
+  border: none;
+  margin-right: 15%;
+}
+
+#hero-buttons :last-child {
+  background-color: white;
+  border: none;
+  font-size: 1rem;
+}
+
+.hero-info {
+  margin: 3rem 0;
+}
+
+/* hero style end */
 
 /*  style start */
 /*  style end */
@@ -62,4 +99,24 @@ header nav ul li {
   #burger-menu {
     display: none;
   }
+
+  .hero {
+    display: flex;
+    padding: 1rem;
+  }
+
+  .hero-info {
+    padding: 1rem;
+  }
+  .line-block {
+    display: block;
+  }
+  #hero-butons {
+    justify-content: flex-start;
+  }
+  #hero-img {
+    min-width: 375px;
+  }
 }
+
+/* to continue 3/5 39:00 */
